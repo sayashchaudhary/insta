@@ -1,0 +1,145 @@
+
+#sayash {
+  width: 600px;
+  height: 1050px;
+  border: 0px solid #000;
+  margin: 50px auto;
+  padding: 10px;
+  margin-left: 40%;
+  margin-top: 2%;
+}
+#box{
+   width: 360px;
+  height: 20px;
+  border: 0px solid #000;
+  margin: 50px auto;
+  padding: 10px;
+  margin-top: -60px;
+  margin-left: 490px;
+  }
+  #get{
+    width: 500px;
+  height: 50px;
+  margin: 50px auto;
+  padding: 10px;
+  margin-left: 43.5%;
+  margin-top: -500px;
+
+  }
+.main-content {
+  width: 250px;
+  height: 50%;
+  margin: 10px auto;
+  background-color: #fff;
+  border: 2px solid #e6e6e6;
+  padding: 40px 50px;
+}
+.sign{
+ width: 352px;
+  height: 50px;
+  margin: 10px auto;
+  background-color: #fff;
+  text-align: center;
+  border: 2px solid #e6e6e6;
+  margin-top: -450px;
+  margin-left: 164px;
+  }
+
+.header {
+  border: 0px solid #000;
+  margin-bottom: 5px;
+}
+
+.header img {
+  height: 55px;
+  width: 310px;
+  margin: auto;
+  margin-left: -25px;
+}
+
+.input-1,
+.input-2,
+.input-3, 
+.input-4{
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 8px 12px;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-size: 12px;
+  background-color: #eee;
+}
+
+.btn {
+  width: 100%;
+  background-color: #3897f0;
+  border: 1px solid #3897f0;
+  padding: 5px 12px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.sub-content {
+  width: 250px;
+  height: 40%;
+  margin: 10px auto;
+  border: 1px solid #e6e6e6;
+  padding: 20px 50px;
+  background-color: #fff;
+}
+
+.s-part {
+  text-align: center;
+  font-family: 'Overpass Mono', monospace;
+  word-spacing: -3px;
+  letter-spacing: -2px;
+  font-weight: normal;
+}
+#link{
+  margin-left: 250px;
+}
+.s-part a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #3897f0;
+  font-family: 'Overpass Mono', monospace;
+  word-spacing: -3px;
+  letter-spacing: -2px;
+  font-weight: normal;
+}
+.iphone{
+  margin-top: -900px;
+  margin-left: 140px; 
+}
+body{
+  background-image: url(original.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+#animation{
+  animation: cycle 6s infinite;
+  margin-left: 140px;
+  margin-top: -863px;
+}
+@keyframes cycle{
+  0%{
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    height: 5000px;
+  }
+  50%{
+    background-image: url(2.jpg);
+    background-repeat: no-repeat;
+    height: 5000px;
+  }
+  100%{
+    background-image: url(3.jpg);
+    background-repeat: no-repeat;
+    height: 5000px;
+  }
+}
